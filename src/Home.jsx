@@ -27,10 +27,10 @@ export default function Home() {
           "Placements ka solution"
           </p>
           
-          <div className="mb-[-12px]">
+          <div className="">
             <EmailForm setSuccessMessage={setSuccessMessage} />
           </div>
-          <p className=" mt-[-16px] max-w-md mx-auto text-base text-gray-500 sm:text-sm md:mt-5 md:text-md md:max-w-3xl">
+          <p className="  max-w-md mx-auto text-base text-gray-500 sm:text-sm  md:text-md md:max-w-3xl">
           {successMessage ? <span className="text-green-500">{successMessage}</span> : "Enter your email address, and we will notify you once we go live."}
           </p>
 

@@ -51,7 +51,7 @@ export default function EmailForm({setSuccessMessage}) {
   
 
   return (
-    <form onSubmit={handleSubmit} className="mt-8 sm:flex flex">
+    <form onSubmit={handleSubmit} className="mt-8 sm:flex flex md:flex-row flex-col items-center justify-center">
       <input
         type="email"
         name="email"
